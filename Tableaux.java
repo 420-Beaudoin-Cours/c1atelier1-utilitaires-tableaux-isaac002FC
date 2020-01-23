@@ -2,6 +2,10 @@
  * @author France Beaudoin
  */
 public class Tableaux {
+
+
+
+
     private static void permute(int[] tab, int i1, int i2){
         int transit = tab[i1];
         tab[i1] = tab[i2];
